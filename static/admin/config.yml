@@ -12,6 +12,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", required: true }
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Date", name: "date", widget: "date", required: true }
       - {label: "Draft", name: "draft", widget: "boolean", required: true }
 
